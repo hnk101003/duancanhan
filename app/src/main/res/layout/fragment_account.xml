@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AccountFragment">
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/avt1"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_marginTop="15dp"
+                android:text="My account: "
+                android:textSize="25sp"
+                android:textColor="#FD8D14"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tvEmail"
+                android:text="My email"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn_chgpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="30dp"
+                android:text="Change password"
+                android:textSize="17sp"
+
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:backgroundTint="#E19898"
+                android:drawableRight="@drawable/change_pass"/>
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="30dp"
+                android:text="Log out"
+                android:textSize="17sp"
+                android:textStyle="italic"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:backgroundTint="#E19898"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_power"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Bánh trung thu</string>
+    <string name="title_fragment_maps">MapFragment</string>
+    <string name="ban_do">AIzaSyA8moNnCAR-QyIDRyDHvFUPAqbbk1P397o</string>
+
+
+<!--    <string name="your_string_here">This is an &lt;u>underline&lt;/u>.</string>-->
+
+</resources>
+
+
